@@ -75,11 +75,11 @@ class Home extends Component {
                 <div className="h-banner-wrap">
                   <div className="h-banner-left">
                     <div className="h-bnr-top">
-                      <h2>
-                        <span className="title-outline">To Every</span> Direction
+                      <h2 style={{ fontSize: '100px' }}>
+                        <span className="title-outline" style={{ fontSize: '100px' }}>To Every</span> Direction
                       </h2>
                       <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                      <a href="services-1.html" className="h-bnr-btn">View Services</a>
+                      <a target='_blank' href="https://wa.link/h0vceo" className="h-bnr-btn">Book Now</a>
                     </div>
 
                   </div>
@@ -144,10 +144,10 @@ class Home extends Component {
 
                       <div className="service-icon-box-title">
                         <h3 className="wt-title">
-                          <a href="services-detail.html">
-                            <span className="site-text-primary">01.</span>Road Freight</a>
+                          <a href="#">
+                            <span className="site-text-primary">01.</span>Part Loads </a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                        <p>Our express parcel delivery network services over 2000+ pin codes in India. It can handle consignments of up to 10 kilograms with same-day and next-day </p>
                       </div>
 
                     </div>
@@ -161,10 +161,10 @@ class Home extends Component {
 
                       <div className="service-icon-box-title">
                         <h3 className="wt-title">
-                          <a href="services-detail.html">
-                            <span className="site-text-primary">02.</span>Shipping Freight</a>
+                          <a href="#">
+                            <span className="site-text-primary">02.</span>Warehousing</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                        <p>We offers secure and efficient warehousing solutions, from receiving and storing goods to order fulfillment and distribution. We provide a safe and organized environment to ensure the proper handling and storage of your products.</p>
                       </div>
 
                     </div>
@@ -178,10 +178,10 @@ class Home extends Component {
 
                       <div className="service-icon-box-title">
                         <h3 className="wt-title">
-                          <a href="services-detail.html">
-                            <span className="site-text-primary">03.</span>Air Freight</a>
+                          <a href="#">
+                            <span className="site-text-primary">03.</span>CNF & Freight Forwarding</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                        <p>CNF (Cost and Freight) and freight forwarding services provided by Logicarts ensure smooth and cost-effective transportation of goods. We manage the logistics and shipping process, ensuring timely and safe delivery to your desired location.</p>
                       </div>
 
                     </div>
@@ -194,73 +194,74 @@ class Home extends Component {
 
         </div>
 
-     
 
-            <div id='aboutus' class="section-full-wrap site-bg-gray tw-why-choose-area">
-                <div class="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" style={{backgroundImage: "url(images/background/bg-1.jpg)"}}>
-                    <div class="container">
 
-                        <div class="tw-why-choose-section">
+        <div id='aboutus' class="section-full-wrap site-bg-gray tw-why-choose-area">
+          <div class="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" >
+          {/* style={{ backgroundImage: "url(images/background/bg-1.jpg)" }} */}
+            <div class="container">
 
-                            <div class="row">
-                                <div class="col-xl-5 col-lg-5 col-md-12">
-                                    <div class="tw-why-choose-left">
+              <div class="tw-why-choose-section">
 
-                                        <div class="section-head left wt-small-separator-outer">
-                                            <div class="wt-small-separator site-text-primary">
-                                                <div>Why Choose Us</div>
-                                            </div>
-                                            <h2 class="wt-title">We Are Professional Logistics & cargo Agency</h2>
-                                        </div>
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-12">
+                    <div class="tw-why-choose-left">
 
-                                        <strong>Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa illo inventore.</strong>
-                                        <p class="section-head-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, que ipsa quae ab illo inventore veritatis quasi architecto beatae itae dicta sunt explicabo.
-                                            Nemo enim ipsam voluptate voluptas sitr atur aut odit aut fugit, sed quia consequuntur magni dolores is eos qui ratione voluptatem sequi nesciunt. </p>
-                                        <div class="tw-why-choose-left-bottom">
-                                            <a href="about-1.html" class="btn-half site-button"><span>Learn More</span><em></em></a>
-                                            <div class="sign-font">
-                                                <span>Signature</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-7 col-lg-7 col-md-12">
-                                    <div class="tw-why-choose-right">
-                                        <div class="tw-why-choose-media1 shine-effect">
-                                            <div class="shine-box">
-                                                {/* <img src="images/w-choose/pic1.jpg" alt=""/> */}
-                                            </div>
-                                        </div>
-                                        <div class="tw-why-choose-media2 slide-top shine-effect">
-                                            <div class="shine-box">
-                                                <img src="images/w-choose/pic2.jpg" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tw-hilite-text-wrap2">
-                                <div class="tw-hilite-text">
-                                    <span>Logistics</span>
-                                </div>
-                            </div>
+                      <div class="section-head left wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                          <div>About Us</div>
                         </div>
-                    </div>
-                </div>
+                        <h2 class="wt-title">KNOW ABOUT 999 Logistics</h2>
+                      </div>
 
-                <div class="tw-any-help-section">
-                    <div class="container">
-                        <div class="tw-any-help-inner">
-                            <img src="images/w-choose/qt-icon.png" alt="" />
-                            <span class="tw-24">24/7 Active Suport Team</span>
-                            <span class="tw-help-title">Need Immediate Support Or Any Help?</span>
-                            <span class="tw-help-number">(2 900 234 4241)</span>
+                      {/* <strong>Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa illo inventore.</strong> */}
+                      <strong >We provide full range  logistics solution
+                        Trusted delivery brand, at your service.  Enabling commerce by empowering lives for everyone, everywhere.</strong>
+                      <div class="tw-why-choose-left-bottom">
+                        {/* <a href="about-1.html" class="btn-half site-button"><span>Learn More</span><em></em></a> */}
+                        <div class="sign-font">
+                          {/* <span>Signature</span> */}
                         </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
 
+                  <div class="col-xl-7 col-lg-7 col-md-12">
+                    <div class="tw-why-choose-right">
+                      <div class="tw-why-choose-media1 shine-effect">
+                        <div class="shine-box">
+                          {/* <img src="images/w-choose/pic1.jpg" alt=""/> */}
+                        </div>
+                      </div>
+                      <div class="tw-why-choose-media2 slide-top shine-effect">
+                        <div class="shine-box" style={{width: "453px",marginTop: '-36px'}}>
+                          <img src="map.png" style={{width:'100%'}} alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tw-hilite-text-wrap2">
+                  <div class="tw-hilite-text">
+                    <span>Logistics</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="tw-any-help-section">
+            <div class="container">
+              <div class="tw-any-help-inner">
+                <img src="images/w-choose/qt-icon.png" alt="" />
+                <span class="tw-24">24/7 Active Suport Team</span>
+                <span class="tw-help-title">Need Immediate Support Or Any Help?</span>
+                <span class="tw-help-number">(9972276667)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
 
 
@@ -725,7 +726,7 @@ class Home extends Component {
 
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-right text-right">
-                  <a href="about-1.html" className="btn-half site-button"><span>Read More</span><em></em></a>
+                  {/* <a href="about-1.html" className="btn-half site-button"><span>Read More</span><em></em></a> */}
                 </div>
               </div>
             </div>
@@ -735,7 +736,7 @@ class Home extends Component {
               <div className="tw-company-approch-inner">
                 <div className="tw-company-years">
                   <div className="light">
-                    <h1>35</h1>
+                    <h1>5</h1>
                     <img src="images/text-bg.jpg" alt="" />
                   </div>
                   <div className="tw-company-info">
@@ -752,7 +753,7 @@ class Home extends Component {
                         <img src="images/icons/c-pic1.png" alt="" />
                       </div>
                       <div className="icon-content">
-                        <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">195</span>+</div>
+                        <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">80</span>+</div>
                         <h3 className="icon-content-info">Professional Staff</h3>
                       </div>
                     </div>
@@ -765,14 +766,14 @@ class Home extends Component {
                         <img src="images/icons/c-pic2.png" alt="" />
                       </div>
                       <div className="icon-content">
-                        <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">250</span>+</div>
+                        <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">20k</span>+</div>
                         <h3 className="icon-content-info">On Time Delievery</h3>
                       </div>
                     </div>
                   </div>
 
 
-                  <div className="col-lg-4 col-md-12">
+                  {/* <div className="col-lg-4 col-md-12">
                     <div className="counter-outer-two">
                       <div className="tw-counter-media">
                         <img src="images/icons/c-pic3.png" alt="" />
@@ -782,7 +783,7 @@ class Home extends Component {
                         <h3 className="icon-content-info">Technology and Media</h3>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                 </div>
 
@@ -999,7 +1000,8 @@ class Home extends Component {
 
                     <div className="col-lg-8 col-md-12">
                       {/* <div className="contact-form-outer"> */}
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7326599895787!2d77.68675271049815!3d12.988943387275176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae116c279b184b%3A0x1367b7388421b7ed!2sLogicarts%20-%20Always%20On%20Time%20Delivery!5e0!3m2!1sen!2sin!4v1690355215930!5m2!1sen!2sin"  style={{border:0, width:'100%', height:'100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7326599895787!2d77.68675271049815!3d12.988943387275176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae116c279b184b%3A0x1367b7388421b7ed!2sLogicarts%20-%20Always%20On%20Time%20Delivery!5e0!3m2!1sen!2sin!4v1690355215930!5m2!1sen!2sin" style={{ border: 0, width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.649405552933!2d77.69688451049824!3d12.994261587270254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11755807bd47%3A0x9ee8589c830d754e!2s91springboard%20ITPL%20Main%20Road%2C%20Mahadevapura!5e0!3m2!1sen!2sin!4v1690379020430!5m2!1sen!2sin"  style={{ border: 0, width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       {/* </div> */}
                     </div>
 
@@ -1015,20 +1017,20 @@ class Home extends Component {
 
                           <div className="c-info-column">
                             <div className="c-info-icon fa fa-map-marker"><span></span></div>
-                            <p>1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                            <p>Trifecta Adatto, 21, ITPL Main Rd, Garudachar Palya, Mahadevapura, Bengaluru, Karnataka 560048</p>
                           </div>
 
                           <div className="c-info-column">
                             <div className="c-info-icon fa fa-mobile-phone custome-size"><span></span></div>
 
-                            <p><a href="tel:+216-761-8331">+2 900 234 4241</a></p>
-                            <p><a href="tel:+216-761-8331">+2 900 234 3219</a></p>
+                            <p><a href="tel:+216-761-8331">+91 9972276667</a></p>
+                            {/* <p><a href="tel:+216-761-8331">+2 900 234 3219</a></p> */}
                           </div>
 
                           <div className="c-info-column">
                             <div className="c-info-icon fa fa-envelope-o"><span></span></div>
-                            <p>infohelp@gmail.com</p>
-                            <p>support12@gmail.com</p>
+                            <p>info@999logistics.in</p>
+                            {/* <p>support12@gmail.com</p> */}
                           </div>
 
                         </div>

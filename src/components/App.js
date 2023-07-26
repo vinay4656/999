@@ -33,7 +33,7 @@ class Header extends Component {
 
                                         <div className="detail">
                                             <span className="title">Call Us Now</span>
-                                            <span><a href="tel:29002344241">+91 9980619996</a></span>
+                                            <span><a href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
                                         </div>
                                         <div className="media">
                                             <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" />
@@ -155,12 +155,12 @@ class Footer extends Component {
                                         <div className="logo-footer clearfix">
                                             <a href="index.html"><img src="999LOGO.png" style={{ filter: 'invert(1)' }} alt="" /></a>
                                         </div>
-                                        <p>Many desktop publishing packages and web page editors now use are dolra Ipsum as their default .</p>
+                                        <p>999 Logistics is platform that provides hyper-local, on-demand delivery solutions for businesses. With a mission to Build the fastest and most reliable logistics network</p>
                                         <ul className="social-icons">
-                                            <li><a href="#" className="fa fa-facebook"></a></li>
+                                            {/* <li><a href="#" className="fa fa-facebook"></a></li>
                                             <li><a href="#" className="fa fa-twitter"></a></li>
                                             <li><a href="#" className="fa fa-instagram"></a></li>
-                                            <li><a href="#" className="fa fa-youtube-play"></a></li>
+                                            <li><a href="#" className="fa fa-youtube-play"></a></li> */}
                                         </ul>
                                     </div>
 
@@ -170,16 +170,17 @@ class Footer extends Component {
                                     <div className="widget widget_services ftr-list-center">
                                         <h3 className="widget-title">Quick Links</h3>
                                         <ul>
-                                            <li><a href="about-1.html">About</a></li>
-                                            <li><a href="services-1.html">Services</a></li>
-                                            <li><a href="blog-grid.html">Blog</a></li>
-                                            <li><a href="about-1.html">FAQ</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#aboutus">About</a></li>
+                                            <li><a href="#services">Services</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                            {/* <li><a href="about-1.html">FAQ</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li> */}
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-3 col-md-6">
+                                {/* <div className="col-lg-3 col-md-6">
                                     <div className="widget widget_services ftr-list-center">
                                         <h3 className="widget-title">Services</h3>
                                         <ul>
@@ -190,9 +191,9 @@ class Footer extends Component {
                                             <li><a href="services-detail.html">Packaging</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-3 col-md-6">
+                                {/* <div className="col-lg-3 col-md-6">
                                     <div className="widget widget_services ftr-list-center">
                                         <h3 className="widget-title">Community</h3>
                                         <ul>
@@ -203,7 +204,7 @@ class Footer extends Component {
                                             <li><a href="about-1.html">Terms & Condition</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
 
                             </div>
 
@@ -216,7 +217,7 @@ class Footer extends Component {
                             <div className="footer-bottom-info">
 
                                 <div className="footer-copy-right">
-                                    <span className="copyrights-text">&copy; {new Date().getFullYear()} by thewebmax All Rights Reserved.</span>
+                                    <span className="copyrights-text">&copy; {new Date().getFullYear()} by 999Logistics All Rights Reserved.</span>
                                 </div>
 
                             </div>
