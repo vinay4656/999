@@ -766,7 +766,7 @@ class Home extends Component {
                         <img src="images/icons/c-pic2.png" alt="" />
                       </div>
                       <div className="icon-content">
-                        <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">20 k</span>+</div>
+                        <div className="tw-count-number site-text-primary">20K+</div>
                         <h3 className="icon-content-info">On Time Delievery</h3>
                       </div>
                     </div>
