@@ -7,7 +7,7 @@ class Home extends Component {
       <div className="page-content">
 
 
-        <div className="twm-slider1-wrap" style={{marginTop: '-40px',marginBottom: '-100px'}}>
+        <div className="twm-slider1-wrap" style={{marginTop: '-10px',marginBottom: '-100px'}}>
 
 
           <div className="swiper twm-slider">
