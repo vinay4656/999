@@ -78,7 +78,7 @@ class Home extends Component {
                       <h2 style={{ fontSize: '100px' }}>
                         <span className="title-outline" style={{ fontSize: '100px' }}>To Every</span> Direction
                       </h2>
-                      <p>There are many variations of passages of worem Ipsum available, but the majority</p>
+                      <p>Unwavering Deliveries, Infinite Directions.</p>
                       <a target='_blank' href="https://wa.link/h0vceo" className="h-bnr-btn">Book Now</a>
                     </div>
 
