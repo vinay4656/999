@@ -3347,6 +3347,9 @@ ol li {
         padding: 0px;
     }
 }
+.main-bar{
+    background-color: white !important;
+}
 
 .ap-btn {
     position: relative;

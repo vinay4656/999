@@ -162,28 +162,28 @@ All JavaScript fuctions Start
 
     //--------Home 1 Slider------------//
     function slider_home1() {
-        var swiper = new Swiper(".twm-slider", {
-            slidesPerView: 1,
-            speed: 3000,
-            grabCursor: true,
-            parallax: true,
-            loop: true,
-            autoplay: true,
-            autoplay: {
-                delay: 5000,
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-                hide: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                renderBullet: function(index, className) {
-                    return '<span class="' + className + '">' + (index + 1) + "</span>";
-                },
-            },
-        });
+        // var swiper = new Swiper(".twm-slider", {
+        //     slidesPerView: 1,
+        //     speed: 3000,
+        //     grabCursor: true,
+        //     parallax: true,
+        //     loop: true,
+        //     autoplay: true,
+        //     autoplay: {
+        //         delay: 5000,
+        //     },
+        //     scrollbar: {
+        //         el: ".swiper-scrollbar",
+        //         hide: false,
+        //     },
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //         renderBullet: function(index, className) {
+        //             return '<span class="' + className + '">' + (index + 1) + "</span>";
+        //         },
+        //     },
+        // });
     }
 
     //--------Home 2 Slider------------//

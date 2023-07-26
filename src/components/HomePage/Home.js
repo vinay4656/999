@@ -7,7 +7,7 @@ class Home extends Component {
       <div className="page-content">
 
 
-        <div className="twm-slider1-wrap">
+        <div className="twm-slider1-wrap" style={{marginTop: '-40px',marginBottom: '-100px'}}>
 
 
           <div className="swiper twm-slider">
@@ -71,7 +71,7 @@ class Home extends Component {
               </div> */}
 
 
-              <div className="swiper-slide">
+              <div className="swiper-slide active">
                 <div className="h-banner-wrap">
                   <div className="h-banner-left">
                     <div className="h-bnr-top">
@@ -93,7 +93,7 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="cross-line-box left up-down"><img src="images/main-slider/slider1/cross-line-box.png" style={{ filter: 'invert(1)' }} alt="#" /></div>
+                  {/* <div className="cross-line-box left up-down"><img src="images/main-slider/slider1/cross-line-box.png" style={{ filter: 'invert(1)' }} alt="#" /></div> */}
                   <div className="cross-line-box right up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#" /></div>
                   <div className="circle-left-top zoon-in-out"></div>
                 </div>
