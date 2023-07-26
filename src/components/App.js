@@ -13,7 +13,7 @@ class Header extends Component {
                             <div className="logo-header">
                                 <div className="logo-header-inner logo-header-one">
                                     <a href="index.html">
-                                        <img style={{ width: "89%" }} src="images/logo.png" alt="" />
+                                        <img style={{ width: "89%" }} src="999LOGO.png" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ class Header extends Component {
 
                             <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
 
-                                <ul className="nav navbar-nav">
+                                <ul className=" nav navbar-nav">
                                     <li className="has-child"><a href="#">Home</a>
                                     </li>
                                     <li className="has-child"><a href="#services">Services</a>
@@ -153,7 +153,7 @@ class Footer extends Component {
 
                                     <div className="widget widget_about">
                                         <div className="logo-footer clearfix">
-                                            <a href="index.html"><img src="images/logo-dark.png" style={{ filter: 'invert(1)' }} alt="" /></a>
+                                            <a href="index.html"><img src="999LOGO.png" style={{ filter: 'invert(1)' }} alt="" /></a>
                                         </div>
                                         <p>Many desktop publishing packages and web page editors now use are dolra Ipsum as their default .</p>
                                         <ul className="social-icons">
