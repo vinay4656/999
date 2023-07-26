@@ -36,7 +36,7 @@ class Header extends Component {
                                             <span><a href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
                                         </div>
                                         <div className="media">
-                                            <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" />
+                                            {/* <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" /> */}
                                         </div>
                                     </div>
                                 </div>
