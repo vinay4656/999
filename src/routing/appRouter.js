@@ -13,7 +13,8 @@ class AppRouter extends Component {
                     <Routes>
                         <Route path='/' exact element={<Home />} />
 
-                        {/* <Route path="*" element={<NotFound />} /> */}
+
+                        <Route path="*" element={<></>} />
                     </Routes>
                 </App>
             </Router>

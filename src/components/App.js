@@ -17,9 +17,9 @@ class Header extends Component {
                                     </a>
                                 </div>
                             </div>
-                           
 
-                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" style={{filter: 'invert(1)'}} className="navbar-toggler collapsed">
+
+                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" style={{ filter: 'invert(1)' }} className="navbar-toggler collapsed">
                                 <span className="sr-only">Toggle navigation</span>
                                 <span className="icon-bar icon-bar-first"></span>
                                 <span className="icon-bar icon-bar-two"></span>
@@ -50,17 +50,18 @@ class Header extends Component {
 
                                     <li><a href="#contact">Contact</a></li>
 
-                
+
 
                                     <li>
-                                        <div className='div-tracking'>
-                                            <a className='div-tracking-a' href="#">Tracking</a>
+                                        <div className="div-tracking">
+                                            <a className="div-tracking-a" href="#" data-bs-toggle="modal" data-bs-target="#trackingModal">Tracking</a>
                                         </div>
                                     </li>
 
                                 </ul>
 
                             </div>
+
 
                             <div className="extra-nav header-2-nav">
                                 {/* <div className="extra-cell">
@@ -77,8 +78,8 @@ class Header extends Component {
                                         </div> */}
 
                                         <div className="detail">
-                                            <span className="title" style={{color:'black'}}>Call Us Now</span>
-                                            <span><a style={{color:'black', fontSize:'27px'}} href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
+                                            <span className="title" style={{ color: 'black' }}>Call Us Now</span>
+                                            <span><a style={{ color: 'black', fontSize: '27px' }} href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
                                         </div>
                                         <div className="media">
                                             {/* <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" /> */}
@@ -88,7 +89,7 @@ class Header extends Component {
 
                             </div>
 
-                           
+
 
 
 
@@ -110,7 +111,7 @@ class Header extends Component {
                         </form>
                     </div>
                 </div>
-
+             
             </header>
         );
     }

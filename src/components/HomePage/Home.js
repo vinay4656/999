@@ -6,8 +6,89 @@ class Home extends Component {
     return (
       <div className="page-content">
 
+        <div className="modal fade " id="trackingModal" tabIndex="-1" aria-labelledby="trackingModalLabel" aria-hidden="true">
+          <div className="modal-dialog modal-lg">
+            <div className="modal-content">
+              {/* <div className="modal-header">
+                <h5 className="modal-title" id="trackingModalLabel">Tracking Modal</h5>
+                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div> */}
+              <div className="modal-body">
 
-        <div className="twm-slider1-wrap" style={{marginTop: '-35px',marginBottom: '-100px'}}>
+                <div className="booking-tab-content m-3">
+                  <div className="col-lg-12 col-md-12 booking-tab">
+                    <form className="track-and-trace-form">
+
+                      <div className="row">
+
+                        <div className="col-lg-12 col-md-12">
+                          <div className="mb-3">
+                            <select id="Shipment_Type" className="form-select">
+                              <option selected>Shipment Type</option>
+                              <option>Road</option>
+                              <option>Train</option>
+                              <option>Air</option>
+                              <option>Sea</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div className="col-lg-12 col-md-12">
+                          <div className="mb-3">
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </div>
+
+
+                        <div className="col-lg-12">
+                          <div className="tw-inline-checked mt-2 mb-3">
+                            <div className="mb-4 form-check">
+                              <input type="checkbox" className="form-check-input" id="Fragile1" />
+                              <label className="form-check-label" for="Fragile1">Fragile</label>
+                            </div>
+
+                            <div className="mb-4 form-check">
+                              <input type="checkbox" className="form-check-input" id="Express2" />
+                              <label className="form-check-label" for="Express2">Express Delivery</label>
+                            </div>
+
+                            <div className="mb-4 form-check">
+                              <input type="checkbox" className="form-check-input" id="Insurance3" />
+                              <label className="form-check-label" for="Insurance3">Insurance</label>
+                            </div>
+
+                            <div className="mb-4 form-check">
+                              <input type="checkbox" className="form-check-input" id="packaging4" />
+                              <label className="form-check-label" for="packaging4">Packaging</label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-lg-12 col-md-12 mb-3">
+                          <div className="tw-booking-footer" style={{ display: 'flex',justifyContent: 'space-between',alignItems: 'center'}}>
+                            <div className="tw-booking-footer-btn">
+                              <button type="submit" className="btn-half site-button">
+                                <span>Track & Trace</span><em></em>
+                              </button>
+                            </div>
+                            <span style={{    display: 'inline-table',fontFamily: "Oswald, sans-serif",fontSize: "120px",lineHeight: "0.75",fontWeight: '700',color: '#000',textTransform: 'uppercase',opacity: '0.05'}} className="tw-booking-footer-text">Trace</span>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="twm-slider1-wrap" style={{ marginTop: '-35px', marginBottom: '-100px' }}>
 
 
           <div className="swiper twm-slider">
@@ -86,7 +167,7 @@ class Home extends Component {
                   <div className="h-banner-right">
                     <div className="h-bnr-r-inner">
                       <div className="h-bnr-media">
-                        <img src="images/main-slider/slider1/truck.png" style={{width:"90%"}} alt="#" className="slide-top" />
+                        <img src="images/main-slider/slider1/truck.png" style={{ width: "90%" }} alt="#" className="slide-top" />
                       </div>
                       <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: 'url(images/main-slider/slider1/bg2.jpg)' }}>
 
@@ -120,6 +201,8 @@ class Home extends Component {
                 <div>What we do!</div>
               </div>
               <h2 className="wt-title">Specialist Logistics Services</h2>
+
+
               <p className="section-head-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the when an printer took.</p>
             </div>
 
@@ -196,53 +279,53 @@ class Home extends Component {
 
 
 
-        <div id='aboutus' class="section-full-wrap site-bg-gray tw-why-choose-area">
-          <div class="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" >
-          {/* style={{ backgroundImage: "url(images/background/bg-1.jpg)" }} */}
-            <div class="container">
+        <div id='aboutus' className="section-full-wrap site-bg-gray tw-why-choose-area">
+          <div className="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" >
+            {/* style={{ backgroundImage: "url(images/background/bg-1.jpg)" }} */}
+            <div className="container">
 
-              <div class="tw-why-choose-section">
+              <div className="tw-why-choose-section">
 
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-12">
-                    <div class="tw-why-choose-left">
+                <div className="row">
+                  <div className="col-xl-5 col-lg-5 col-md-12">
+                    <div className="tw-why-choose-left">
 
-                      <div class="section-head left wt-small-separator-outer">
-                        <div class="wt-small-separator site-text-primary">
+                      <div className="section-head left wt-small-separator-outer">
+                        <div className="wt-small-separator site-text-primary">
                           <div>About Us</div>
                         </div>
-                        <h2 class="wt-title">KNOW ABOUT 999 Logistics</h2>
+                        <h2 className="wt-title">KNOW ABOUT 999 Logistics</h2>
                       </div>
 
                       {/* <strong>Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa illo inventore.</strong> */}
                       <strong >We provide full range  logistics solution
                         Trusted delivery brand, at your service.  Enabling commerce by empowering lives for everyone, everywhere.</strong>
-                      <div class="tw-why-choose-left-bottom">
-                        {/* <a href="about-1.html" class="btn-half site-button"><span>Learn More</span><em></em></a> */}
-                        <div class="sign-font">
+                      <div className="tw-why-choose-left-bottom">
+                        {/* <a href="about-1.html" className="btn-half site-button"><span>Learn More</span><em></em></a> */}
+                        <div className="sign-font">
                           {/* <span>Signature</span> */}
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-xl-7 col-lg-7 col-md-12">
-                    <div class="tw-why-choose-right">
-                      <div class="tw-why-choose-media1 shine-effect">
-                        <div class="shine-box">
+                  <div className="col-xl-7 col-lg-7 col-md-12">
+                    <div className="tw-why-choose-right">
+                      <div className="tw-why-choose-media1 shine-effect">
+                        <div className="shine-box">
                           {/* <img src="images/w-choose/pic1.jpg" alt=""/> */}
                         </div>
                       </div>
-                      <div class="tw-why-choose-media2 slide-top shine-effect">
-                        <div class="shine-box" style={{width: "453px",marginTop: '-36px'}}>
-                          <img src="map.png" style={{width:'100%'}} alt="" />
+                      <div className="tw-why-choose-media2 slide-top shine-effect">
+                        <div className="shine-box" style={{ width: "453px", marginTop: '-36px' }}>
+                          <img src="map.png" style={{ width: '100%' }} alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="tw-hilite-text-wrap2">
-                  <div class="tw-hilite-text">
+                <div className="tw-hilite-text-wrap2">
+                  <div className="tw-hilite-text">
                     <span>Logistics</span>
                   </div>
                 </div>
@@ -250,13 +333,13 @@ class Home extends Component {
             </div>
           </div>
 
-          <div class="tw-any-help-section">
-            <div class="container">
-              <div class="tw-any-help-inner">
+          <div className="tw-any-help-section">
+            <div className="container">
+              <div className="tw-any-help-inner">
                 <img src="images/w-choose/qt-icon.png" alt="" />
-                <span class="tw-24">24/7 Active Suport Team</span>
-                <span class="tw-help-title">Need Immediate Support Or Any Help?</span>
-                <span class="tw-help-number">(9972276667)</span>
+                <span className="tw-24">24/7 Active Suport Team</span>
+                <span className="tw-help-title">Need Immediate Support Or Any Help?</span>
+                <span className="tw-help-number">(9972276667)</span>
               </div>
             </div>
           </div>
@@ -773,6 +856,8 @@ class Home extends Component {
                   </div>
 
 
+
+
                   {/* <div className="col-lg-4 col-md-12">
                     <div className="counter-outer-two">
                       <div className="tw-counter-media">
@@ -1000,8 +1085,8 @@ class Home extends Component {
 
                     <div className="col-lg-8 col-md-12">
                       {/* <div className="contact-form-outer"> */}
-                      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7326599895787!2d77.68675271049815!3d12.988943387275176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae116c279b184b%3A0x1367b7388421b7ed!2sLogicarts%20-%20Always%20On%20Time%20Delivery!5e0!3m2!1sen!2sin!4v1690355215930!5m2!1sen!2sin" style={{ border: 0, width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.649405552933!2d77.69688451049824!3d12.994261587270254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11755807bd47%3A0x9ee8589c830d754e!2s91springboard%20ITPL%20Main%20Road%2C%20Mahadevapura!5e0!3m2!1sen!2sin!4v1690379020430!5m2!1sen!2sin"  style={{ border: 0, width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7326599895787!2d77.68675271049815!3d12.988943387275176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae116c279b184b%3A0x1367b7388421b7ed!2sLogicarts%20-%20Always%20On%20Time%20Delivery!5e0!3m2!1sen!2sin!4v1690355215930!5m2!1sen!2sin" style={{ border: 0, width: '100%', height: '100%' }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.649405552933!2d77.69688451049824!3d12.994261587270254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11755807bd47%3A0x9ee8589c830d754e!2s91springboard%20ITPL%20Main%20Road%2C%20Mahadevapura!5e0!3m2!1sen!2sin!4v1690379020430!5m2!1sen!2sin" style={{ border: 0, width: '100%', height: '100%' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                       {/* </div> */}
                     </div>
 
