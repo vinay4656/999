@@ -21,48 +21,15 @@ class Home extends Component {
 
                       <div className="row">
 
+                    
                         <div className="col-lg-12 col-md-12">
                           <div className="mb-3">
-                            <select id="Shipment_Type" className="form-select">
-                              <option selected>Shipment Type</option>
-                              <option>Road</option>
-                              <option>Train</option>
-                              <option>Air</option>
-                              <option>Sea</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div className="col-lg-12 col-md-12">
-                          <div className="mb-3">
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">Enter Docket Number...</textarea>
                           </div>
                         </div>
 
 
-                        <div className="col-lg-12">
-                          <div className="tw-inline-checked mt-2 mb-3">
-                            <div className="mb-4 form-check">
-                              <input type="checkbox" className="form-check-input" id="Fragile1" />
-                              <label className="form-check-label" for="Fragile1">Fragile</label>
-                            </div>
-
-                            <div className="mb-4 form-check">
-                              <input type="checkbox" className="form-check-input" id="Express2" />
-                              <label className="form-check-label" for="Express2">Express Delivery</label>
-                            </div>
-
-                            <div className="mb-4 form-check">
-                              <input type="checkbox" className="form-check-input" id="Insurance3" />
-                              <label className="form-check-label" for="Insurance3">Insurance</label>
-                            </div>
-
-                            <div className="mb-4 form-check">
-                              <input type="checkbox" className="form-check-input" id="packaging4" />
-                              <label className="form-check-label" for="packaging4">Packaging</label>
-                            </div>
-                          </div>
-                        </div>
-
+                     
                         <div className="col-lg-12 col-md-12 mb-3">
                           <div className="tw-booking-footer" style={{ display: 'flex',justifyContent: 'space-between',alignItems: 'center'}}>
                             <div className="tw-booking-footer-btn">
