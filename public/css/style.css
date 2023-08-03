@@ -8369,7 +8369,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .twm-slider1-wrap .h-bnr-r-inner .h-bnr-media img {
     position: relative;
-    left: 0;
+    /* left: 0; */
+    left: -15vh;
     top: 50px;
 }
 
