@@ -8369,14 +8369,15 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .twm-slider1-wrap .h-bnr-r-inner .h-bnr-media img {
     position: relative;
-    /* left: 0; */
-    left: -15vh;
+    left: 0;
+    /* left: -15vh; */
     top: 50px;
 }
 
 @media (max-width: 1199px) {
     .twm-slider1-wrap .h-bnr-r-inner .h-bnr-media img {
-        left: -38px;
+        left: -87px;
+        width: 69vh;
     }
 }
 
@@ -8398,7 +8399,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     height: 680px;
     position: absolute;
     left: 100%;
-    top: -30px;
+    top: 0px;
     margin-left: -285px;
     z-index: -1;
 }
