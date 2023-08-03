@@ -8397,7 +8397,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     height: 680px;
     position: absolute;
     left: 100%;
-    top: 0px;
+    top: -30px;
     margin-left: -285px;
     z-index: -1;
 }

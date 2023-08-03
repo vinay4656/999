@@ -134,7 +134,7 @@ class Home extends Component {
                   <div className="h-banner-right">
                     <div className="h-bnr-r-inner">
                       <div className="h-bnr-media">
-                        <img src="images/main-slider/slider1/truck.png" style={{ width: "90%" }} alt="#" className="slide-top" />
+                        <img src="images/main-slider/slider1/truck.png" style={{ width: "80%" }} alt="#" className="slide-top" />
                       </div>
                       <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: 'url(images/main-slider/slider1/bg2.jpg)' }}>
 
