@@ -127,7 +127,9 @@ class Home extends Component {
                         <span className="title-outline" style={{ fontSize: '100px' }}>To Every</span> Direction
                       </h2>
                       <p>Unwavering Deliveries, Infinite Directions.</p>
-                      <a target='_blank' href="https://wa.link/h0vceo" className="h-bnr-btn">Book Now</a>
+                      <a href="whatsapp://send?abid=919972276667&text=Hello!" className="h-bnr-btn">
+                        <img style={{ width: '37px' }} src='images/whatsapp.png' /> +91 9972276667
+                      </a>
                     </div>
 
                   </div>
@@ -286,8 +288,8 @@ class Home extends Component {
                         </div>
                       </div>
                       <div className="tw-why-choose-media2 slide-top shine-effect">
-                        <div className="shine-box" style={{ width: "453px", marginTop: '-36px' }}>
-                          <img src="map.png" style={{ width: '100%' }} alt="" />
+                      <div className="shine-box map2">
+                          <img src="map.png" className="map" alt="" />
                         </div>
                       </div>
                     </div>

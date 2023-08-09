@@ -53,9 +53,9 @@ class Header extends Component {
 
 
                                     <li>
-                                        <div className="div-tracking">
+                                        {/* <div className="div-tracking">
                                             <a className="div-tracking-a" href="#" data-bs-toggle="modal" data-bs-target="#trackingModal">Tracking</a>
-                                        </div>
+                                        </div> */}
                                     </li>
 
                                 </ul>
@@ -64,30 +64,36 @@ class Header extends Component {
 
 
                             <div className="extra-nav header-2-nav">
-                                {/* <div className="extra-cell">
-                                    <div className="header-search">
-                                        <a href="#search" className="header-search-icon"><i className="fa fa-search"></i></a>
-                                    </div>
-                                </div> */}
-                                <div className="extra-cell">
-                                    <div className="header-nav-call-section">
-                                        {/* <div style={{ marginRight: "17px" }}>
-                                            <div className='div-tracking'>
-                                                <a className='div-tracking-a' href="#">Tracking</a>
-                                            </div>
-                                        </div> */}
-
-                                        <div className="detail">
-                                            <span className="title" style={{ color: 'black' }}>Call Us Now</span>
-                                            <span><a style={{ color: 'black', fontSize: '27px' }} href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
-                                        </div>
-                                        <div className="media">
-                                            {/* <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" /> */}
-                                        </div>
-                                    </div>
+                            {/* <div className="extra-cell">
+                                <div className="header-search">
+                                    <a href="#search" className="header-search-icon"><i className="fa fa-search"></i></a>
                                 </div>
+                            </div> */}
+                            <div className="extra-cell">
+                                <div className="header-nav-call-section">
+                                    <div style={{ marginRight: "17px" }}>
+                                        <div className='div-tracking' style={{borderRadius:'10px'}}>
+                                            <a className='div-tracking-a' data-bs-toggle="modal" data-bs-target="#trackingModal" href="#">Track Order</a>
+                                        </div>
+                                    </div>
 
+                                    <div style={{ marginRight: "17px" }}>
+                                        <div className='div-tracking test' style={{borderRadius:'10px'}}>
+                                            <a className='div-tracking-a test2' href="#">Login</a>
+                                        </div>
+                                    </div>
+
+                                    {/* <div className="detail">
+                                        <span className="title" style={{ color: 'black' }}>Call Us Now</span>
+                                        <span><a style={{ color: 'black', fontSize: '27px' }} href="https://wa.link/h0vceo" target='_blank'>+91 9972276667</a></span>
+                                    </div>
+                                    <div className="media">
+                                        <img src="images/whatsapp.png" style={{ width: '44px', height: '44px' }} alt="#" />
+                                    </div> */}
+                                </div>
                             </div>
+
+                        </div>
 
 
 
